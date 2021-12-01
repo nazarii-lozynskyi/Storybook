@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+  font-family: "Comforter", cursive;
+}
+
+.item svg {
+  margin-right: 10px;
+}
+
+.item:hover,
+.item:focus {
+  background-color: #ccc;
+}
+
+.item:focus svg,
+.item:hover svg {
+  color: rgb(14, 99, 209);
+}
